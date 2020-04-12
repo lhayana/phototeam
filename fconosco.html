@@ -37,6 +37,13 @@
             <label for="exampleFormControlTextarea1">Sua mensagem</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="button" class="btn btn-info">Enviar</button>
+          <button type="button" class="btn btn-info" id="enviar">Enviar</button>
         </form>
     </section>
+
+    <script>
+       var btnElement = document.getElementById('enviar');
+       btnElement.onclick = function(){
+        alert("Sua mensagem foi enviada!");
+    }
+    </script>
