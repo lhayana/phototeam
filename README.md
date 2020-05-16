@@ -1,2 +1,2 @@
 # phototeam
- web development studies. photo studio website.
+learning bootstrap. photo studio website.
